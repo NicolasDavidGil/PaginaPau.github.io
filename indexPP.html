@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Paulo Nazareno Gil</title>
+    <link rel="stylesheet" href="estiloPP.css">
+</head>
+<body>
+    <!--ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Paulo Nazareno Gil</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick= "seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick= "seleccionar()">SOBRE MI</a></li>                    
+                    <li><a href="#portfolio" onclick= "seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick= "seleccionar()">CONTACTO</a></li>                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/FotoPerfil.jpeg" alt="">
+            </div>
+            <h1>Paulo Nazareno Gil</h1>
+            <h2>Chef - Ayudante de cocina</h2>
+            <div class="redes">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>                
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Paulo Nazareno Gil</span>, soy una persona medio boluda que le gusta jugar 
+            warzone aunque soy manco, pro player resident evil XDXDXD</p>
+
+            <div class="fila">
+                <div class="colum">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            22/11/2002
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            pauloydracolove@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            http://paulonazarenogil.github.io/portfolioPaulo/
+                        </li>
+                        <li>
+                            <strong>Ubicacion</strong>
+                            Adrogue, Buenos Aires
+                        </li>
+                    </ul>
+                </div>
+                <div class="colum">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-grill"></i>
+                            <span>Cocina</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-light fa-cake-slice"></i>
+                            <span>Pasteleria</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajes</span>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+            <a class="button" href="" download="PauloNGil">Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span></a>
+        </div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/Bruschetta.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Bruschetta</h3>
+                    <p>Rodaja de pan horneada, con jamón crudo, queso bria y kale cortado en flor.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/CroquetasMorcilla.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Croquetas de Morcilla</h3>
+                    <p>Masa a base de morcilla rellena con roquefort y bañadas en alioli.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/EnsaladaMarina.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Ensalada Marina</h3>
+                    <p>Ensalada a base de lechuga, rúcula, kale, salsa de queso y salmón ahumado. Coronado con praliné de almendras.</p>
+                </div>
+            </div>  
+            <div class="proyecto">
+                <img src="img/PolloTeriyaki.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Pollo Teriyaki</h3>
+                    <p>Pinchos de pollo rebozados y fritos, pincelados con salsa teriyaki y dedcorados con semilla de sésamo.</p>
+                </div>
+            </div>  
+            <div class="proyecto">
+                <img src="img/FrenchToast.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Tostada Francesa</h3>
+                    <p>Tostadas remojadas en mezcla french y cocidas con manteca, pinceladas con crema griega y emplatada con frutas de estacion, granola y miel.</p>
+                </div>
+            </div>  
+            <div class="proyecto">
+                <img src="img/SandwichVeggi.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Sanwich Vegano</h3>
+                    <p>Pan de focaccia humectado con pesto de tomate, relleno con tomate asado y queso muzzarela, emplatado con una pincelada de pesto de albahaca, cebolla encurtida y kale.</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+
+    <section id="contacto" class="contacto">
+        <div class="contedido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">           
+                <div class="colum">
+                    <img src="img/Ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Lomas de Zamora, Buenos Aires
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                (+54) 011 - 5884 - 2432
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                pauloydracolove@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
